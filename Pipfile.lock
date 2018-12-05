@@ -1,0 +1,57 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "fc9f684ec11a9858a1037ffabd8bb05d11560c5b73acd7e3bc3e0dcbc78bedb4"
+        },
+        "requires": {
+            "python_version": "3.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "ifxpy": {
+            "version": "==3.0.1"
+        },
+        "sqlalchemy": {
+            "version": "==1.2.14"
+        }
+    },
+    "develop": {
+        "atomicwrites": {
+            "version": "==1.2.1"
+        },
+        "attrs": {
+            "version": "==18.2.0"
+        },
+        "bumpversion": {
+            "version": "==0.5.3"
+        },
+        "more-itertools": {
+            "version": "==4.3.0"
+        },
+        "pathlib2": {
+            "version": "==2.3.2"
+        },
+        "pluggy": {
+            "version": "==0.8.0"
+        },
+        "py": {
+            "version": "==1.7.0"
+        },
+        "pytest": {
+            "version": "==4.0.0"
+        },
+        "setuptools": {
+            "version": "==40.6.2"
+        },
+        "six": {
+            "version": "==1.11.0"
+        }
+    }
+}
