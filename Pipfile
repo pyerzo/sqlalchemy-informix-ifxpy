@@ -10,6 +10,3 @@ bumpversion = "*"
 [packages]
 ifxpy = "*"
 sqlalchemy = "*"
-
-[requires]
-python_version = "3.5"
