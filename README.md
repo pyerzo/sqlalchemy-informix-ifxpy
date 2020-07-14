@@ -16,13 +16,13 @@ for SELECT statements only.
 
 ### Potential problems
 
-Although PipEnv says you should be able to install ifxpy version 3.0.3 with
+Although PipEnv thinks you should be able to install ifxpy version 3.0.3 with
 `pipenv sync`, it currently fails. I used `pipenv shell` and then
 `pip install ifxpy` and got version 3.0.1.
 There's already an issue for this.
 
 To run the SQLAlchemy tests, I believe you need an Informix database set up
-with logging enabled. TO create one, go to Informix `dbaccess`, create a
+with logging enabled. To create one, go to Informix `dbaccess`, create a
 database, give it a name, and make sure you pick LOG > Log, then create it.
 
 Once you have the database created, you might be able to run the tests using
@@ -35,3 +35,9 @@ python -m pytest -v \
 ```
 with USER, HOST, and TESTDATABASE being replaced with the appropriate info
 for your environment and the database you created.
+
+I don't have an Informix database available for testing so I don't know how
+it will do.
+
+Pull requests are welcome. I am unlikely to be able to do anything to
+support this.
